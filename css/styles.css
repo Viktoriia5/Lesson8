@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+body {
+  background-color: #fdde7e;
+}
+.product {
+  width: 80%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.product-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+  height: 440px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+.product-column:nth-child(even) {
+  height: 500px;
+}
+.product-column__price {
+  font-family: Miso;
+  font-size: 70px;
+  font-weight: 700;
+  color: #02995b;
+  text-align: center;
+}
+.product-column__name {
+  color: #333333;
+  font-family: Miso;
+  text-align: center;
+  font-size: 56px;
+}
+
+.product-column__description {
+  color: #333333;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 24px;
+  max-width: 150px;
+}
+img {
+  width: 36px;
+  height: 45px;
+  opacity: 0.5;
+  display: block;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: 57px;
+}
+.product-column__image-top {
+  width: 49px;
+  height: 46px;
+  background: url("../images/bronze-steam.png");
+}
+.product-column__image-bottom {
+  width: 135px;
+  height: 77px;
+  background: url("../images/bronze-cup.png");
+  margin-top: 12px;
+}
+.product-column__image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.product-column__image-top2 {
+  width: 49px;
+  height: 46px;
+  background: url("../images/gold-steam.png");
+}
+.product-column__image-bottom2 {
+  width: 135px;
+  height: 77px;
+  background: url("../images/gold-cup.png");
+  margin-top: 12px;
+}
+.product-column__image-top3 {
+  width: 49px;
+  height: 46px;
+  background: url("../images/silver-steam.png");
+}
+.product-column__image-bottom3 {
+  width: 135px;
+  height: 77px;
+  background: url("../images/silver-cup.png");
+  margin-top: 12px;
+}
+.button {
+  background-color: #fdde7e;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
